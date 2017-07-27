@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Anton', sans-serif;
+	font-size: 14px;
+}
+body {
+	background-image: url("../images/tech.jpg");
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	height: 100%;
+	padding-top: 50px;
+	background-attachment: fixed;
+}
+h1,h2,h3,h4 {
+    font-family: 'Lobster', cursive;
+}
+p{
+	word-wrap: break-word;
+}
+img{
+	border: 0px;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+	background-color: #3b5998;
+	background-image: none;
+}
+.body-default
+{
+	margin-bottom:10px;
+	padding-top:24px;
+	padding-bottom:24px;
+	color:#000000;
+	background-color:#8b9dc3;
+	border-radius: 6px;
+}
+.body-content{
+	padding: 10px;
+	border-radius: 6px;
+	background-color:#dfe3ee;
+	overflow:hidden;
+}
+.body-header{
+	padding: 10px;
+	border-radius: 6px;
+	background-color: #3b5998;
+	color: #f7f7f7;
+}
+.jumbotron {
+    border-radius: 6px;
+	padding-bottom: 24px;
+	padding-top: 24px;
+	color:#f8f8ff;
+	background-color: #3b5998;
+	/*
+	background-image: url("../images/bluetechbanner.jpg");
+	*/
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.mainbody{
+	background-color:#0c0c0c;
+}
+
+hr{
+	-moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: #0c0c0c -moz-use-text-color #f8f8ff;
+	color: #f8f8ff;
+	border-style: solid none;
+	border-width: 1px 0;
+	margin: 18px 0;
+}
